@@ -1,0 +1,28 @@
+{
+    "caption": "Verify Signature",
+    "fields": {
+        "ABU": {
+            "caption": "Message",
+            "doc": "Message that was signed",
+            "editor": "DynamicValue",
+            "name": "message",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABV": {
+            "caption": "Signature",
+            "editor": "DynamicValue",
+            "name": "signature",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABX": {
+            "caption": "Address",
+            "doc": "Wallet address that signed the message",
+            "editor": "DynamicValue",
+            "name": "address",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "caption": "Load app",
+    "fields": {
+        "AAd": {
+            "caption": "App Name",
+            "editor": "DynamicValue",
+            "name": "app_name",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAq": {
+            "caption": "RPC",
+            "default_val": "wss://westend-rpc.polkadot.io",
+            "doc": "Leave empty to use the default Polkadot RPC",
+            "editor": "DynamicValue",
+            "name": "rpc",
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

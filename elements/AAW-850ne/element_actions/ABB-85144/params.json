@@ -1,0 +1,29 @@
+{
+    "caption": "Decrypt Message",
+    "fields": {
+        "ABD": {
+            "caption": "Encrypted message",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "encrypted_message",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABJ": {
+            "caption": "Secret",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "secret",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABK": {
+            "caption": "Nonce",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "nonce",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

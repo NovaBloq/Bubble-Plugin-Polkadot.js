@@ -1,0 +1,96 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "Polkadot Utils",
+    "events": {
+        "AAu": {
+            "caption": "Mnemonit generated",
+            "name": "mnemonit_generated"
+        }
+    },
+    "icon": "ion-ios-cog-outline",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAv": {
+            "caption": "Generated Mnemonic",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "generated_mnemonic",
+            "value": "text"
+        },
+        "AAy": {
+            "caption": "Is Address valid",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "is_address_valid",
+            "value": "boolean"
+        },
+        "ABH": {
+            "caption": "Encrypted Message",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": false,
+            "name": "encrypted_message",
+            "value": "text"
+        },
+        "ABI": {
+            "caption": "Encrypted Nonce",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": false,
+            "name": "encrypted_nonce",
+            "value": "text"
+        },
+        "ABL": {
+            "caption": "Encrypted Secret",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": false,
+            "name": "encrypted_secret",
+            "value": "text"
+        },
+        "ABM": {
+            "caption": "Decrypted Message",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "decrypted_message",
+            "value": "text"
+        },
+        "ABS": {
+            "caption": "Multisig Address",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "multisig_address",
+            "value": "text"
+        },
+        "ABZ": {
+            "caption": "Is Signature Valid",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "is_signature_valid",
+            "value": "boolean"
+        },
+        "ABc": {
+            "caption": "Hash Data Result",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "hash_data_result",
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "caption": "Validate address",
+    "fields": {
+        "AAx": {
+            "caption": "Address",
+            "doc": "Address to validate",
+            "editor": "DynamicValue",
+            "name": "address",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "caption": "Generate a Multisig Account",
+    "fields": {
+        "ABO": {
+            "caption": "Addresses",
+            "doc": "Input the addresses that will make up the multisig account.",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "addresses",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABP": {
+            "caption": "Threshold",
+            "default_val": 2,
+            "doc": "The number of accounts that must approve. Must be greater than 0 and less than or equal to the total number of addresses.",
+            "editor": "DynamicValue",
+            "name": "threshold",
+            "rank": 1,
+            "value": "number"
+        }
+    }
+}

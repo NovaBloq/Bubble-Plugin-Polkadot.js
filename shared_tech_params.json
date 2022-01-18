@@ -1,0 +1,20 @@
+{
+    "assets": {
+        "ABW": {
+            "name": "ezpolkadot_bundle",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1642425800047x730051204888813700/ez_polkadot_bundle.js"
+        },
+        "ABY": {
+            "name": "polkadot_bundle",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1642426089537x881431079517416700/ezpolkadot_bundle.js"
+        },
+        "ABe": {
+            "name": "polkadotjs_bundle",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1642426933330x959931270360519400/ezpolkadotjs_bundle.js"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": 2,
+        "use_jquery": true
+    }
+}

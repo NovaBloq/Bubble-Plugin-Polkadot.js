@@ -1,0 +1,107 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "Polkadot Wallet",
+    "events": {
+        "AAG": {
+            "caption": "Extension not Installed",
+            "name": "extension_not_installed"
+        },
+        "AAH": {
+            "caption": "Wallet not connected",
+            "name": "wallet_not_connected"
+        },
+        "AAZ": {
+            "caption": "User Cancelled the Action",
+            "name": "user_canceled_the_action"
+        },
+        "AAa": {
+            "caption": "Message Signed",
+            "name": "message_signed"
+        },
+        "AAf": {
+            "caption": "User canceled Sending Transaction",
+            "name": "user_canceled_sending"
+        },
+        "AAg": {
+            "caption": "User canceled Signing",
+            "name": "user_canceled_signing"
+        },
+        "AAh": {
+            "caption": "Not enough balance",
+            "name": "not_enough_balance"
+        },
+        "AAm": {
+            "caption": "Transaction sent",
+            "name": "transaction_sent"
+        }
+    },
+    "icon": "ion-ios-world",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAI": {
+            "caption": "Connected wallets",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "connected_wallets",
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "Is Extension Installed",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "is_extension_installed",
+            "value": "boolean"
+        },
+        "AAK": {
+            "caption": "Connected wallets names",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "connected_wallets_names",
+            "value": "text"
+        },
+        "AAb": {
+            "caption": "Signature",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "signature",
+            "value": "text"
+        },
+        "AAj": {
+            "caption": "API is initializing",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "wallet_is_loading",
+            "value": "boolean"
+        },
+        "AAn": {
+            "caption": "Transaction hash",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "transaction_hash",
+            "value": "text"
+        },
+        "AAo": {
+            "caption": "Transaction status",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "transaction_status",
+            "value": "text"
+        }
+    }
+}

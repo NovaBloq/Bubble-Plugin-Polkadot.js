@@ -1,0 +1,22 @@
+{
+    "caption": "Sign and Send Transaction",
+    "fields": {
+        "AAk": {
+            "caption": "To wallet",
+            "default_val": "5H9drsu3A8kTkZYSjM82h6hw3Xyp5WL8MSdSG2Scb5ApbjgW",
+            "doc": "Wallet address to receive.",
+            "editor": "DynamicValue",
+            "name": "to_wallet",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAl": {
+            "caption": "Amount",
+            "doc": "Amount to send",
+            "editor": "DynamicValue",
+            "name": "amount_to_send",
+            "rank": 1,
+            "value": "number"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "caption": "Hash Data",
+    "fields": {
+        "ABb": {
+            "caption": "Data",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "data",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABd": {
+            "caption": "Hash method",
+            "default_val": "blake2",
+            "editor": "Dropdown",
+            "name": "hash_method",
+            "options": "blake2,keccak,xxhash",
+            "rank": 1
+        }
+    }
+}

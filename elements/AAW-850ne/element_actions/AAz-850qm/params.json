@@ -1,0 +1,12 @@
+{
+    "caption": "Encrypt Message",
+    "fields": {
+        "ABC": {
+            "caption": "Message",
+            "editor": "DynamicValue",
+            "name": "message",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}
