@@ -1,0 +1,28 @@
+{
+    "caption": "Get Pair Metadata",
+    "fields": {
+        "ACi": {
+            "caption": "Pair number",
+            "doc": "Order number from pairs list. Remember that the count starts at 0",
+            "editor": "DynamicValue",
+            "name": "pair_nr",
+            "optional": true,
+            "rank": 0,
+            "value": "number"
+        },
+        "ACj": {
+            "caption": "OR",
+            "editor": "Label",
+            "name": "info",
+            "rank": 1
+        },
+        "ACk": {
+            "caption": "Pair address",
+            "editor": "DynamicValue",
+            "name": "pair_address",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "caption": "Get Balance of Address",
+    "fields": {
+        "ABo": {
+            "caption": "Address",
+            "editor": "DynamicValue",
+            "name": "address",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

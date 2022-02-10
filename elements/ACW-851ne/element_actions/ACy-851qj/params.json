@@ -1,0 +1,28 @@
+{
+    "caption": "Verify Signature",
+    "fields": {
+        "ACz": {
+            "caption": "Signature",
+            "editor": "DynamicValue",
+            "name": "signature",
+            "rank": 0,
+            "value": "text"
+        },
+        "ADA": {
+            "caption": "Message",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "message",
+            "rank": 1,
+            "value": "text"
+        },
+        "ADB": {
+            "caption": "Wallet address",
+            "doc": "Wallet that has signed the message",
+            "editor": "DynamicValue",
+            "name": "wallet_address",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

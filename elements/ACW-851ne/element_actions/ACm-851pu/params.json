@@ -1,0 +1,13 @@
+{
+    "caption": "Set SS58 Format",
+    "fields": {
+        "ACn": {
+            "caption": "Format",
+            "default_val": 2,
+            "editor": "DynamicValue",
+            "name": "format",
+            "rank": 0,
+            "value": "number"
+        }
+    }
+}

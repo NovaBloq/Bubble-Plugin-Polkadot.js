@@ -1,0 +1,12 @@
+{
+    "caption": "Subscribe to Balance Changes",
+    "fields": {
+        "ACB": {
+            "caption": "Address",
+            "editor": "DynamicValue",
+            "name": "address",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

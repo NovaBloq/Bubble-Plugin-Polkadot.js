@@ -1,0 +1,21 @@
+{
+    "caption": "Sign a Message",
+    "fields": {
+        "ACw": {
+            "caption": "Message",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "message",
+            "rank": 0,
+            "value": "text"
+        },
+        "ACx": {
+            "caption": "Wallet to sign with",
+            "doc": "Make sure it was added in the keyring first!",
+            "editor": "DynamicValue",
+            "name": "wallet_to_sign_with",
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

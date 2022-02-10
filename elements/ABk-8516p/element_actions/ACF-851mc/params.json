@@ -1,0 +1,25 @@
+{
+    "caption": "Get Balance at Block",
+    "fields": {
+        "ACG": {
+            "caption": "Get balance at a specific Block number",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        },
+        "ACH": {
+            "caption": "Address",
+            "editor": "DynamicValue",
+            "name": "address",
+            "rank": 1,
+            "value": "text"
+        },
+        "ACI": {
+            "caption": "Block number",
+            "editor": "DynamicValue",
+            "name": "block_number",
+            "rank": 2,
+            "value": "number"
+        }
+    }
+}

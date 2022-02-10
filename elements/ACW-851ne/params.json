@@ -1,0 +1,101 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "Polkadot Keyring",
+    "events": {
+        "ACq": {
+            "caption": "All Pairs State ready",
+            "name": "all_pairs_ready"
+        },
+        "ACr": {
+            "caption": "Wallet added to keyring",
+            "name": "wallet_added_to_keyring"
+        },
+        "ADC": {
+            "caption": "Signed",
+            "name": "signed"
+        },
+        "ADH": {
+            "caption": "Pair removed",
+            "name": "key_removed"
+        }
+    },
+    "fields": {
+        "ACX": {
+            "caption": "RPC URL",
+            "doc": "Leave empty to use the default Polkadot RPC",
+            "editor": "DynamicValue",
+            "name": "rpc_url",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "icon": "ion-code-download",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "ACY": {
+            "caption": "Keyring is initializing",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "keyring_is_initializing",
+            "value": "boolean"
+        },
+        "ACl": {
+            "caption": "Pair Metadata",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "pair_metadata",
+            "value": "text"
+        },
+        "ACp": {
+            "caption": "All Pairs",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "keyring_pairs",
+            "value": "text"
+        },
+        "ACs": {
+            "caption": "Total pairs available",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "keyring_pairs_available",
+            "value": "number"
+        },
+        "ADD": {
+            "caption": "Signature is Valid",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "signature_is_valid",
+            "value": "boolean"
+        },
+        "ADE": {
+            "caption": "Signature",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "signature",
+            "value": "text"
+        },
+        "ADG": {
+            "caption": "Added pair address",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "added_pair_address",
+            "value": "text"
+        }
+    }
+}

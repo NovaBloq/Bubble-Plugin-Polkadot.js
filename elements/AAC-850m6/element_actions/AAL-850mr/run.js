@@ -9,7 +9,7 @@ function(instance, properties, context) {
                 if (signRaw) {
                     signRaw({
                         address: instance.data.account.address,
-                        data: window.pd_plugin.stringToHex(message),
+                        data: window.pd_plugin.utils.stringToHex(message),
                         type: 'bytes'
                     }).then((signed) => {
                         instance.publishState('signature', signed.signature);

@@ -6,15 +6,22 @@ function(instance, context) {
     const mainRPC = 'wss://rpc.polkadot.io';
     const westendRPC = 'wss://westend-rpc.polkadot.io';
     instance.data.initializeApi = () => {
-        const wsProvider = new window.pd_plugin.WsProvider(instance.data.rpc);
-        window.pd_plugin.ApiPromise.create({ provider: wsProvider }).then((api) => {
-            instance.data.api = api;
-            console.log(instance.data.api);
-            instance.publishState('wallet_is_loading', false);
-        }).catch(err => {
-            instance.publishState('wallet_is_loading', false);
-            console.log(err);
-        })
+         if (window.polkadotpluginApi) {
+            // API already loaded in plugin Wallet element
+            instance.data.api = window.polkadotpluginApi;
+        }else{
+            const wsProvider = new window.pd_plugin.WsProvider(instance.data.rpc);
+            window.pd_plugin.ApiPromise.create({ provider: wsProvider }).then((api) => {
+                instance.data.api = api;
+                window.polkadotpluginApi = api;
+                //Save it globally in order to use in the separated API plugin element 
+                //if using both elements at the same time
+                instance.publishState('wallet_is_loading', false);
+            }).catch(err => {
+                instance.publishState('wallet_is_loading', false);
+                console.log(err);
+            })
+        }
     }
 
     instance.data.installed = () => {

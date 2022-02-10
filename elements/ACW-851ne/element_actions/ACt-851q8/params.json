@@ -1,0 +1,13 @@
+{
+    "caption": "Remove Pair from keyring",
+    "fields": {
+        "ACu": {
+            "caption": "Address",
+            "doc": "Pair address to be removed",
+            "editor": "DynamicValue",
+            "name": "address",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

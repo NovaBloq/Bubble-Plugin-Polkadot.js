@@ -1,0 +1,30 @@
+{
+    "caption": "Add Pair to Keyring",
+    "fields": {
+        "ACb": {
+            "caption": "Mnemonic",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "mnemonic",
+            "rank": 0,
+            "value": "text"
+        },
+        "ACc": {
+            "caption": "JSON data",
+            "doc": "JSON data is up to you, it can contain any useful data. For example: { name: 'mnemonic acc' }",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "json_data",
+            "rank": 1,
+            "value": "text"
+        },
+        "ACd": {
+            "caption": "Keyring Type",
+            "doc": " in standard Polkadot/Substrate chains ed25519/sr25519/ecdsa types are supported",
+            "editor": "DynamicValue",
+            "name": "type",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

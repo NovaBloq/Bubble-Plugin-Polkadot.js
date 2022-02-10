@@ -11,6 +11,22 @@
         "ABe": {
             "name": "polkadotjs_bundle",
             "url": "//dd7tel2830j4w.cloudfront.net/f1642426933330x959931270360519400/ezpolkadotjs_bundle.js"
+        },
+        "ABp": {
+            "name": "polkadotjs_bundle2",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643640520117x118041280525316590/ezpolkadotjs_bundle2.js"
+        },
+        "ACU": {
+            "name": "bundle4",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643724766667x571209015387093250/contract_bundle4.js"
+        },
+        "ACV": {
+            "name": "contract_bundle",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1643724923001x186821021728749150/contract_bundle5.js"
+        },
+        "ACg": {
+            "name": "ezbundle_3",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1644249877407x420567942658392400/ezpolkadot_bundle3.js"
         }
     },
     "dependencies": {

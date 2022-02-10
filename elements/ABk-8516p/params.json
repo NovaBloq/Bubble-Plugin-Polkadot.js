@@ -1,0 +1,104 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "Polkadot API",
+    "events": {
+        "ACD": {
+            "caption": "New Block",
+            "name": "new_block"
+        },
+        "ACE": {
+            "caption": "Balance Changed",
+            "name": "balance_changed"
+        },
+        "ACJ": {
+            "caption": "Get Balance at Block is Ready",
+            "name": "get_balance_at_block_is_ready"
+        }
+    },
+    "fields": {
+        "ABl": {
+            "caption": "RPC URL",
+            "doc": "Leave empty to use the default Polkadot RPC",
+            "editor": "DynamicValue",
+            "name": "rpc",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "icon": "ion-code-working",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "ABm": {
+            "caption": "API is initialising",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "api_is_initializing",
+            "value": "boolean"
+        },
+        "ABq": {
+            "caption": "Chain Decimals",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "chain_decimals",
+            "value": "number"
+        },
+        "ABr": {
+            "caption": "Get balance result",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "get_balance_result",
+            "value": "text"
+        },
+        "ABu": {
+            "caption": "Last Block Nr",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "last_block_nr",
+            "value": "number"
+        },
+        "ABw": {
+            "caption": "Connected Chain Name",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "connected_chain_name",
+            "value": "text"
+        },
+        "ACC": {
+            "caption": "New balance",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "new_balance",
+            "value": "text"
+        },
+        "ACK": {
+            "caption": "Chain Symbol",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "chain_symbol",
+            "value": "text"
+        },
+        "ADI": {
+            "caption": "Balance at Block",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "balance_at_block",
+            "value": "text"
+        }
+    }
+}
